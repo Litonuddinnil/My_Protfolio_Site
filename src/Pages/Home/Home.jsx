@@ -1,8 +1,11 @@
-import { FaFacebookSquare } from "react-icons/fa";
+import { FaFacebookSquare, FaGithub } from "react-icons/fa";
 import myImage from "../../assets/Front-End Web.png";
 import About from "../About/About";
 import Skills from "../Skills/Skills";
 import WhatIDo from "../WhatIDo/WhatIDo";
+import { FaSquareXTwitter } from "react-icons/fa6";
+import Contact from "../Contact/Contact";
+import Projects from "../Projects/Projects";
 
 export default function Home() {
   return (
@@ -27,6 +30,8 @@ export default function Home() {
               <h1 className="text-black font-bold text-xl mb-3">Connected with me</h1>
             <div className="flex gap-4 justify-center lg:justify-start">
               <a href="https://www.facebook.com/md.litonuddin.520"><button className="btn btn-outline text-blue-600"><FaFacebookSquare />Facebook</button></a>
+              <a href="https://github.com/Litonuddinnil"><button className="btn btn-outline text-blue-600"><FaGithub /> Github</button></a>
+              <a href="https://x.com/NiloyH80645"><button className="btn btn-outline text-blue-600"><FaSquareXTwitter /> Twitter</button></a>
          
             </div>
           </div>
@@ -41,6 +46,14 @@ export default function Home() {
       <div className="my-12">
         <Skills></Skills>
         <WhatIDo></WhatIDo>
+      </div>
+      {/* projects show  */}
+      <div className="my-12">
+        <Projects></Projects>
+      </div>
+      {/* contact me section */}
+      <div className="my-12">
+        <Contact></Contact>
       </div>
     </div>
   );

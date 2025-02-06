@@ -21,7 +21,7 @@ const About = () => {
             </div>
             <div className="card bg-base-100 shadow-xl p-4">
               <p className="font-bold">From:</p>
-              <p>Natore</p>
+              <p>Rajshahi,Bangladesh</p>
             </div>
           </div>
         </section>
